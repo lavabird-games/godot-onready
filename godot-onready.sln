@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lavabird.SceneOnReady", "Lavabird.SceneOnReady\Lavabird.SceneOnReady.csproj", "{8A446E93-A371-46FF-8F76-9DA9EA1E24DC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B06AD841-B2FC-4448-BEFB-71AFD776D119} = {B06AD841-B2FC-4448-BEFB-71AFD776D119}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lavabird.SceneOnReady.Fody", "Lavabird.SceneOnReady.Fody\Lavabird.SceneOnReady.Fody.csproj", "{B06AD841-B2FC-4448-BEFB-71AFD776D119}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A446E93-A371-46FF-8F76-9DA9EA1E24DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A446E93-A371-46FF-8F76-9DA9EA1E24DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A446E93-A371-46FF-8F76-9DA9EA1E24DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A446E93-A371-46FF-8F76-9DA9EA1E24DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B06AD841-B2FC-4448-BEFB-71AFD776D119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B06AD841-B2FC-4448-BEFB-71AFD776D119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B06AD841-B2FC-4448-BEFB-71AFD776D119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B06AD841-B2FC-4448-BEFB-71AFD776D119}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7216E86A-D4F7-45E3-92E5-69F493A33DEF}
+	EndGlobalSection
+EndGlobal

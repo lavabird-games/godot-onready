@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>10</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FodyHelpers" Version="6.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="GodotSharp">
+      <Private>True</Private>
+      <HintPath>$(SolutionDir)\Lib\GodotSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+ 
+</Project>
